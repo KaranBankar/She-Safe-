@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/drawerlayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationview"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity="start"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/litepink"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="She Safe"
+            android:titleTextColor="@color/white"
+            android:titleMarginStart="10dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="MissingConstrants"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:id="@+id/viewPager"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNav"
+        app:menu="@menu/botton_nav"/>
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

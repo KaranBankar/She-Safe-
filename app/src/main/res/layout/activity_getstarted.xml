@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Getstarted"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/loginshape"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginRight="-30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started With"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHE SAFE"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold|normal"
+            android:textColor="@color/hotpink"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- a women safty application"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_login"
+        android:backgroundTint="@color/litepink"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_register"
+        android:backgroundTint="@color/litepink"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_skip"
+        android:backgroundTint="@color/litepink"
+        android:text="Skip"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="140dp"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/loginshape"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="-300dp"
+        android:layout_marginLeft="-30dp"/>
+
+
+</LinearLayout>
+

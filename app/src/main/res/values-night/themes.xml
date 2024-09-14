@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SheSafe" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/litepink</item>
+    </style>
+
+    <style name="Theme.SheSafe.Main" parent="Base.Theme.SheSafe" />
+
+
+    <style name="Base.Theme.splashscreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="color">@color/litepink</item>
+    </style>
+    <style name="ActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/litepink</item>
+        <item name="android:colorPrimaryDark">@color/litepink</item>
+    </style>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/litepink">
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_username"
+        android:text="Karan"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tv_useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="karanbankar07@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

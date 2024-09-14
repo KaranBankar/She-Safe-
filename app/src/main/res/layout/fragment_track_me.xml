@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".track_me">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="223dp"
+           android:background="@drawable/loginshape"
+           android:src="@drawable/girl"/>
+
+
+       <EditText
+           android:id="@+id/et1"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:editable="true"
+           android:gravity="center"
+           android:text="Help Me Im In Danger...To Reach Me Follow the Location : "
+           android:textSize="20dp"/>
+
+       <TextView
+           android:id="@+id/locationTextView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Current Location: "
+           android:layout_marginTop="40dp"
+           android:layout_gravity="center"
+           android:textSize="18sp"
+           android:textColor="#333333"
+           android:layout_centerInParent="true"/>
+
+
+       <Button
+           android:layout_width="150dp"
+           android:layout_height="70dp"
+           android:text="SEND"
+           android:layout_marginTop="30dp"
+           android:layout_gravity="center"
+           android:textSize="20dp"
+           android:id="@+id/btn_send"/>
+
+
+   </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>
